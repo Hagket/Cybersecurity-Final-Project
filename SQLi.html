@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+    <style>
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  }
+  body {
+  border: none;
+  padding: 25px;
+  background: url("https://live.staticflickr.com/8175/7886998216_14f1b347c8_b.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  }
+
+  h1{
+    text-align: center;
+    font-family: 'Serif';
+    border: solid #C70039;
+    background-color: #C70039;
+    border-radius: 100px;
+    color: #DADADA;
+    font-family: Garamond;
+    padding: 15px 32px;
+  }
+  p{
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: 30px;
+    color: #C70039;
+    background-color: #DADADA;
+    border-radius: 20px;
+    font-family: Garamond;
+    padding: 15px 32px;
+  }
+  p1{
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: 30px;
+    font-family: Garamond;
+  }
+  .button {
+  border: 5px solid #C70039;
+  color: #C70039;
+  background-color: #DADADA;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 100px;
+  width: 250px;
+  font-size: 30px;
+  margin: 30px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+  vertical-align: top;
+  font-family: Garamond;
+  border-radius: 8px;
+  position: relative;
+  left: 22%;
+  -ms-transform: translateX(-70%);
+  transform: translateX(-107%);
+}
+  .button1 {
+  border: 5px solid #C70039;
+  color: #C70039;
+  background-color: #DADADA;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+  font-size: 30px;
+  margin: 30px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+  vertical-align: top;
+  font-family: Garamond;
+  border-radius: 8px;
+  position: relative;
+  left: 22%;
+  -ms-transform: translateX(-70%);
+  transform: translateX(193%);
+  }
+  .button:hover {
+  background-color: #C70039;
+  color: white;
+}
+  .button1:hover {
+  background-color: #C70039;
+  color: white;
+}
+  </style>
+  <body>
+    <script src="script.js"></script>
+
+    <h1>SQL Injection</h1>
+
+    <a href="https://www.acunetix.com/websitesecurity/sql-injection/">
+        <img src="data:image/png;base64,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" class="center"> </a>
+    
+    <p><strong><br>After learning about Databases in March we learned about SQLi which might be my favorite topic of the entire year. We learned how to manipulate website inputs to dump out data from the website's database. We used it in our Supercar Showdown project to find the usernames and passwords of the users.<br><br></strong></p>
+
+<p1><br></p1>
+  
+    <h1>The Reason Why I Chose This Topic:</h1>
+
+    <p><strong><br>I chose this topic because quite honestly it felt like you were actually hacking the websites for information, especially in the investigation report. I really liked using SQL as a whole since you could trick the website into giving you unintentional information. It also came in very handy in Cyberstart as well.<br><br></strong></p>
+    
+    
+  </body>
+</html>
